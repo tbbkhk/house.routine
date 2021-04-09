@@ -1,0 +1,1099 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" data-darkreader-mode="dynamic" data-darkreader-scheme="dark"><head><style class="darkreader darkreader--fallback" media="screen"></style>
+
+
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<title>སྤྱི་གསོག་བུ་གཡར་ 贷款  税费 tools</title>
+<link href="css/calculator.css" rel="stylesheet" type="text/css">
+<link href="css/demo.css" rel="stylesheet" type="text/css">
+<style class="darkreader darkreader--sync" media="screen"></style>
+<script src="js/jquery-1.js"></script>
+<script src="js/jquery.js"></script>
+<script src="js/jBox.js"></script>
+<script src="js/Demo.js"></script>
+<script type="text/javascript" src="js/function.js"></script>
+<script type="text/javascript" src="js/calculator.js"></script>
+
+<meta name="darkreader" content="7c33bddd7437d9f9548d9332042ad1e7"><style class="darkreader darkreader--override" media="screen">.vimvixen-hint {
+    /*background-color: #7b5300 !important;*/
+    /*border-color: #d8b013 !important;*/
+    /*color: #f3e8c8 !important;*/
+}
+
+#edge-translate-panel-body {
+    color: var(--darkreader-neutral-text) !important;
+}</style></head>
+<body>
+<div class="hr_1"></div>
+
+<div class="cArea">
+	<div class="br2"></div>
+	<div id="tab1">
+        <ul>
+            <li onclick="setTab(1,0)" class="now"><a href="javascript:;"style="color: #ffcc10" >ཁང་པ་ཉོ་བ་བུ་གཡར་</a></li>
+            <li class="now" onclick="setTab(1,1)"><a href="javascript:;" style="color: #ffcc10" >税收算法</a></li>
+            <li class="now" onclick="setTab(1,2)"><a href="javascript:;"style="color: #ffcc10">ཚོད་དཔག་དངུལ་གྲངས་</a></li>
+            <b style="font-size: 20px ;color: #fff">[ཁང་པ་ཉོ་བ་གཡར་བའི་མ་དངུལ་ དངུལ་གཡར་སྐྱེ་ཁ་འགྲོ་ལུགས་དང་ ས་འཛིན་བཅའ་ཁྲལ་འགྲོ་ལུགས་]</b>
+        </ul>
+    </div>
+    <div id="tablist1">
+        <div style="display: block;" class="tablist1">
+            <div id="tab2">
+                <ul>
+                    <li onclick="setTab(2,0)" class="now" id="Tooltip-2" style="width: 100px"  ><a href="javascript:;"style="color: #d29a34 ;font-size: 20px; background-color: black" >ཟླ་འཇལ་གཅིག་པ་</a></li>
+                    <li onclick="setTab(2,1)"style="width: 100px"><a href="javascript:;"  id="Tooltip-3" style="color: #d29a34 ;font-size: 20px; background-color: black">ཟླ་འཇལ་ཁག་ཁག་་</a></li>
+                     <li style="width: 100px"><span id="Tooltip-4" style="color: #d29a34;font-size: 20px;background-color: black"  >བུ་གཡར་དབྱེ་བ་</span></li>
+                     <li style="width: 100px"><span id="Tooltip-5" style="color: #d29a34;font-size: 20px;background-color: black"  >བུ་གཡར་བརྒྱ་ཆ་</span></li>
+
+                </ul>
+            </div>
+            <div id="tablist2">
+                <div class="tablist2">
+                    <form name="calc1" method="post" action="">
+                        <div class="fl">
+                            <table style="" data-darkreader-inline-bgcolor="" width="274" height="321" cellspacing="1" cellpadding="3" border="0" >
+                  <tbody><tr>
+                                    <td style="font-size: 18px;background-color: black" data-darkreader-inline-bgcolor="" width="74"  height="8px" align="right">བུ་གཡར་དབྱེ་བ་</td>
+                                    <td style="" data-darkreader-inline-bgcolor="" width="185" >
+                                        <label>
+                                            <select onchange="exc_zuhe(this.form,this.value);" name="type" id="debxloan">
+                                                <option value="1" selected="selected" style="font-size: 18px" >ཚོང་གཉེར་བུ་གཡར་</option>
+                                                <option value="2" style="font-size: 18px" >སྤྱི་གསོག་བུ་གཡར་</option>
+                                                <option value="3" style="font-size: 18px">སྡོམས་ལུགས་</option>
+                                            </select>
+                                        </label>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td style="font-size: 20px;background-color: " data-darkreader-inline-bgcolor="" valign="top" height="126"  align="right">རྩིས་ལུགས་</td>
+                                    <td style="" data-darkreader-inline-bgcolor="" valign="top"  align="center"><table width="93%" height="112" cellspacing="0" cellpadding="0" border="0">
+                                        <tbody><tr>
+                                            <td height="30" align="left">
+                                            	<label for="calc1_radio1" style="font-size: 20px;width='50px'" >
+                                                	<input id="calc1_radio1" onclick="exc_js(this.form,1);" checked="checked" value="1"  name="jisuan_radio" type="radio">
+                                                ས་ཆའི་རྒྱ་ཁྱོན་ གོང་ཚད་</label>
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td><div id="calc1_js_div1" style="display: block;">
+                                                <table width="100%" height="100%" cellspacing="0" cellpadding="0" border="0">
+                                                    <tbody><tr>
+                                                        <td height="25" align="left" style="width: 100px ">
+                                                        	<label style="font-size: 18px;" >གོང་ཚད་：
+                                                            	<input maxlength="8"  name="price" class="input1">སྒོར་/m2</label>
+                                                        </td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td height="22" align="left" style="font-size: 18px">རྒྱ་ཁྱོན་
+                                                            <input maxlength="7" name="sqm" class="input1">
+                                                            m^2
+                                                        </td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td valign="middle" height="27" align="left">
+                                                            <label style="font-size: 18px">བུ་གཡར་བརྒྱ་ཆ་
+                                                                <select size="1" name="anjie">
+                                                                    <option value="9">རྒྱ་ཆ་9</option>
+                                                                    <option value="8">རྒྱ་ཆ་8</option>
+                                                                    <option value="7" selected="selected">རྒྱ་ཆ་7</option>
+                                                                    <option value="6">རྒྱ་ཆ་6</option>
+                                                                    <option value="5">རྒྱ་ཆ་5</option>
+                                                                    <option value="4">རྒྱ་ཆ་4</option>
+                                                                    <option value="3">རྒྱ་ཆ་3</option>
+                                                                    <option value="2">རྒྱ་ཆ་2</option>
+                                                                </select>
+                                                            </label>
+                                                        </td>
+                                                    </tr>
+                                                </tbody></table>
+                                            </div></td>
+                                        </tr>
+                                        <tr>
+                                            <td align="left">
+                                            	<input id="calc1_radio2" onclick="exc_js(this.form,2);" value="2" name="jisuan_radio" type="radio">
+                                                <label for="calc1_radio2" style="font-size: 20px">བུ་གཡར་ཆ་ཚང་ཁྱོན་སྡོམ་</label>
+                                                <br>
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td><div id="calc1_js_div2" style="display: none;">
+                                                <table width="100%" height="100%" cellspacing="0" cellpadding="0" border="0">
+                                                    <tbody><tr>
+                                                        <td valign="middle" height="31" align="left">
+                                                        	<label style="font-size: 18px;background-color: black">བུ་གཡར་གྲངས་ཀ་
+                                                            	<input maxlength="8" width="20" name="daikuan_total000" class="input2">
+                                                            ཁྲི་</label>
+                                                        </td>
+                                                    </tr>
+                                                </tbody></table>
+                                            </div>
+                                                <div id="calc1_zuhe" style="display:none;">
+                                                    <table width="100%" height="100%" cellspacing="0" cellpadding="0" border="0">
+                                                        <tbody><tr>
+                                                            <td>组合比例：</td>
+                                                        </tr>
+                                                        <tr>
+                                                            <td>商业性：
+                                                                <input maxlength="8" size="8" name="total_sy" class="input1">
+                                                                སྒོར་
+                                                            </td>
+                                                        </tr>
+                                                        <tr>
+                                                            <td>སྤྱི་གསོག་བུ་གཡར་：
+                                                                <input maxlength="8" size="8" name="total_gjj" class="input1">
+                                                                སྒོར་
+                                                            </td>
+                                                        </tr>
+                                                    </tbody></table>
+                                                </div></td>
+                                        </tr>
+                                    </tbody></table></td>
+                                </tr>
+                                <tr>
+                                    <td style="" data-darkreader-inline-bgcolor="" valign="top" height="63"  align="right">
+                                        <table width="100%" height="57" cellspacing="0" cellpadding="0" border="0">
+                                        <tbody>
+                                        <tr>
+                                            <td valign="middle" align="right" style="font-size: 18px">བུ་འཇལ་དུས་ཡུན་</td>
+                                        </tr>
+                                        <tr>
+                                            <td valign="middle" align="center"  bgcolor="#000"><a href="javascript:;" onclick="showdetail('qsdetaillist1');"  style="cursor: pointer; color: #fff;font-size: 18px">
+                                               སྐྱེ་ཁའི་བརྒྱ་ཆ་    
+                                            </a>
+                                            </td>
+                                        </tr>
+                                        
+                                      </tbody>
+                                       </table>
+                                   </td>
+                                    <td style="" data-darkreader-inline-bgcolor="" valign="top"  align="center"><table width="93%" height="56" cellspacing="0" cellpadding="0" border="0">
+                                        <tbody><tr>
+                                            <td valign="middle" height="30" align="left">
+                                                <select id="years" size="1" name="years">
+                                                    <option value="1">ལོ་1（12དུས་ཁག་）</option>
+                                                    <option value="2">ལོ་2（24དུས་ཁག་）</option>
+                                                    <option value="3">ལོ་3（36དུས་ཁག་）</option>
+                                                    <option value="4">ལོ་4（48དུས་ཁག་）</option>
+                                                    <option value="5">ལོ་5（60དུས་ཁག་）</option>
+                                                    <option value="6">ལོ་6（72དུས་ཁག་）</option>
+                                                    <option value="7">ལོ་7（84དུས་ཁག་）</option>
+                                                    <option value="8">ལོ་8（96དུས་ཁག་）</option>
+                                                    <option value="9">ལོ་9（108དུས་ཁག་）</option>
+                                                    <option value="10">ལོ་10（120དུས་ཁག་）</option>
+                                                    <option value="11">ལོ་11（132དུས་ཁག་）</option>
+                                                    <option value="12">ལོ་12（144དུས་ཁག་）</option>
+                                                    <option value="13">ལོ་13（156དུས་ཁག་）</option>
+                                                    <option value="14">ལོ་14（168དུས་ཁག་）</option>
+                                                    <option value="15">ལོ་15（180དུས་ཁག་）</option>
+                                                    <option value="16">ལོ་16（192དུས་ཁག་）</option>
+                                                    <option value="17">ལོ་17（204དུས་ཁག་）</option>
+                                                    <option value="18">ལོ་18（216དུས་ཁག་）</option>
+                                                    <option value="19">ལོ་19（228དུས་ཁག་）</option>
+                                                    <option value="20" selected="selected">20（240དུས་ཁག་）</option>
+                                                    <option value="25">ལོ་25（300དུས་ཁག་）</option>
+                                                    <option value="30">ལོ་30（360དུས་ཁག་）</option>
+                                                </select>
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td valign="middle" align="left">
+                                                <select id="lilv" name="lilv">
+                                                    <option value="71">21ལོ་1ཟླ་བ་20ཉིན་ཆ་སྙོན་སྐྱེ་ཁ་</option>  
+
+                                                	<option value="70">11ལོ་07ཟླ་བ་01ཉིན་ཁང་པ་གཉིས་པ་(1.2)</option>
+                                                    <option value="67">11ལོ་07ཟླ་བ་01ཉིན་ཁང་པ་གཉིས་པ་(1.1)</option>
+                                                	<option value="66" selected="selected">1107ཟླ་བ་01ཉིན་新ཆ་སྙོན་སྐྱེ་ཁ་</option>
+                                                    <option value="68">11ལོ་07ཟླ་བ་01ཉིན་དམའ་(9)</option>
+                                                    <option value="69">11ལོ་07ཟླ་བ་01ཉིན་དམའ་(85)</option>
+                                                	ལོ་
+                                                    <option value="65">11ལོ་04ཟླ་བ་06ཉིན་ཁང་པ་གཉིས་པ་(1.2)</option>
+                                                    <option value="62">11ལོ་04ཟླ་བ་06ཉིན་ཁང་པ་གཉིས་པ་(1.1)</option>
+                                                    <option value="61">11ལོ་04ཟླ་བ་06ཉིན་新ཆ་སྙོན་སྐྱེ་ཁ་</option>
+                                                    <option value="63">11ལོ་04ཟླ་བ་06ཉིན་དམའ་(9)</option>
+                                                    <option value="64">11ལོ་04ཟླ་བ་06ཉིན་དམའ་(85)</option>
+                                                    
+                                                    
+
+                                                
+                                                </select>
+                                            </td>
+                                        </tr>
+
+                                    </tbody>
+                                </table>
+                            </td>
+
+                                </tr>
+                                
+                                <tr>
+                                    <td  align="left" style="color: #000;">
+
+                                        <input type="reset" class="again" style="cursor: pointer;font-size: 18px;background-color: black;color: #fff;width: 80px" value="སྐྱར་དུ་རྩིས་ལུགས་">
+
+                                    </td>
+
+                                    <td   align="right">
+                                    	<input value="རྩིས་མགོ་ཚུགས་&nbsp;" style="cursor: pointer;color:#fbfdfb;font-size: 18px;background-color: black" class="but1" onclick="ext_total(this.form);" type="button">
+
+                                    </td>
+
+                                </tr>
+                            </tbody></table>
+                      </div>
+
+                      <div class="detail clear hidden" id="qsdetaillist1">
+                        <table onclick="buyselectok('qsdetail')" style="" data-darkreader-inline-bgcolor="" 
+                        bgcolor="#1d1d1c" width="100%" height="179" cellspacing="1" cellpadding="0" border="0" >
+                          <tbody>
+                          <tr>
+                            <td colspan="4"  data-darkreader-inline-bgcolor=""  align="left"><span class="fl fb fea5504 f14"style="font-size: 18px" >སྤྱིར་གཏང་གཡར་དངུལ་</span></td>
+                          </tr>
+                          
+                          
+                          <tr>
+                            
+                            <td style=";" data-darkreader-inline-bgcolor="" width="22%" valign="middle"  align="center">དུས་ཚོད་ </td>
+                            <td onmouseover="this.className='fbe5d9'" onmouseout="this.className='fff'" val="1" type="flat" num="first" space="small" style=";" data-darkreader-inline-bgcolor="" valign="middle"   align="center">སྐྱེ་ཁའི་བརྒྱ་ཆ་</td>
+                            <td onmouseover="this.className='fbe5d9'" onmouseout="this.className='fff'" val="1" type="flat" num="first" space="small" style=";" data-darkreader-inline-bgcolor="" valign="middle"   align="center">སྐྱེ་ཁ་རྩིས་ལུགས་</td>
+                            
+                          </tr>
+                          <tr>
+                            <td style=";font-size:18px;" data-darkreader-inline-bgcolor="" valign="middle"  align="center" >ལོ་གཅིག་ནང་ཁུལ་</td>
+                            <td onmouseover="this.className='fbe5d9'" onmouseout="this.className='fff'" val="1.5" type="flat" num="first" space="middle" style=";font-size: 18px;" data-darkreader-inline-bgcolor="" valign="middle"  align="center">4.35%</td>
+                            
+                            <td rowspan="7" onmouseover="this.className='fbe5d9'" onmouseout="this.className='fff'" val="3" type="flat" num="sec" space="small" style=";cursor: pointer;" data-darkreader-inline-bgcolor="" valign="middle"  align="center">དུས་ཚོད་ * སྐྱེ་ཁའི་བརྒྱ་ཆ་ * གཡར་དངུལ་</td>
+
+                            </tr>
+                            <tr>
+                            <td style=";font-size:18px;" data-darkreader-inline-bgcolor="" valign="middle"  align="center" >ལོ་གཅིག་ནས་ལྔ་བར་</td>
+                            <td onmouseover="this.className='fbe5d9'" onmouseout="this.className='fff'" val="1.5" type="flat" num="first" space="middle" style=";font-size: 18px;" data-darkreader-inline-bgcolor="" valign="middle"  align="center">4.75%</td>
+                            </tr>
+                            <tr>
+                            <td style=";font-size:18px;" data-darkreader-inline-bgcolor="" valign="middle"  align="center" >ལོ་ལྔ་ཐོག་ལ་</td>
+                            <td onmouseover="this.className='fbe5d9'" onmouseout="this.className='fff'" val="1.5" type="flat" num="first" space="middle" style=";font-size: 18px;" data-darkreader-inline-bgcolor="" valign="middle"  align="center">4.90%</td>
+                            </tr>
+                           
+                           <tr>
+                            <td colspan="4" style=";" data-darkreader-inline-bgcolor=""  align="left"><span class="fl fb fea5504 f14" style="font-size: 18px;">སྤྱི་ཉར་མ་དངུལ་</span></td>
+                          </tr>
+                          <tr>
+                            <td style=";font-size:18px;" data-darkreader-inline-bgcolor="" valign="middle"  align="center" >ལོ་ལྔ་ནང་ཁུལ་</td>
+                            <td onmouseover="this.className='fbe5d9'" onmouseout="this.className='fff'" val="1.5" type="flat" num="first" space="middle" style=";font-size: 18px;" data-darkreader-inline-bgcolor="" valign="middle"  align="center">2.75%</td>
+                            </tr>
+                            <tr>
+                            <td style=";font-size:18px;" data-darkreader-inline-bgcolor="" valign="middle"  align="center" >ལོ་ལྔ་ཐོག་ལ་</td>
+                            <td onmouseover="this.className='fbe5d9'" onmouseout="this.className='fff'" val="1.5" type="flat" num="first" space="middle" style=";font-size: 18px;" data-darkreader-inline-bgcolor="" valign="middle"  align="center">3.25%</td>
+                            </tr>
+                             <tr>
+                            <td colspan="4" style=";" data-darkreader-inline-bgcolor=""  align="center"><span class="" style="font-size: 18px">གསལ་བཤད་  སྤྱིར་གཏང་གི་སྐྱེ་ཁ་ནི་ཟླ་འཇལ་ཡིན་ དེ་རྟེན་ཟླ་རེའི་སྐྱེ་ཁ་ཡང་གཅིག་པ་མིན་</span></td>
+                          </tr>
+
+                          <tr>
+                            <td colspan="3" style=";" data-darkreader-inline-bgcolor="red"  align="center">
+                            <span style ="cursor:pointer" style="font-size:18px; color: red"   onclick="closedetail('qsdetaillist1');">
+                                ཕྱིར་འཐོན
+                        </span>
+                            </td>
+                          </tr>
+                          
+                          
+                       
+                        </tbody></table>
+                    </div>
+
+                        <div class="fr">
+                            <table class="br_1" width="410" height="252" cellspacing="0" cellpadding="3" border="0">
+                                <tbody><tr>
+                                    <td rowspan="4" style=" font-size: 20px;width: 200px;background-color: " class="fb f14" width="94" valign="bottom" align="right">མཐའ་མའི་ཐོབ་གྲངས་</td>
+                                    <td class="br_2" width="109" align="right" style=" font-size: 20px;width: 200px;">ཁང་རིན་ཁྱོན་སྡོམ་</td>
+                                    <td class="br_2" width="187" align="left">
+                                    	<input class="input3" name="fangkuan_total1" readonly="readonly" type="text">
+                                        སྒོར་
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td class="br_2" align="right" style=" font-size: 20px;width: 200px;" >བུ་གཡར་གྲངས་ཀ་</td>
+                                    <td class="br_2" align="left">
+                                    	<input class="input3" name="daikuan_total1" readonly="readonly" type="text">
+                                        སྒོར་
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td class="br_2" align="right" style=" font-size: 20px;width: 200px;">བུ་ལོན་ཐོབ་གྲངས་</td>
+                                    <td class="br_2" align="left">
+                                    	<input class="input3" name="all_total1" readonly="readonly" type="text">
+                                        སྒོར་
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td class="br_2" align="right" style=" font-size: 20px;width: 200px; background-color: black">སྤྱི་གསོག་བུ་གཡར་</td>
+                                    <td class="br_2" align="left">
+                                    	<input name="gjjdkll" class="input3" readonly="readonly" type="text">
+                                        %
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td rowspan="5">&nbsp;</td>
+                                    <td class="br_2" align="right" style=" font-size: 20px;width: 200px;background-color: green">ཚོང་གཉེར་བུ་གཡར་</td>
+                                    <td class="br_2" align="left">
+                                    	<input name="sydkll" class="input3" readonly="readonly" type="text">
+                                        %
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td class="br_2" align="right" style=" font-size: 20px;width: 200px;">སྐྱེ་ཁ་ཐོབ་གྲངས་：</td>
+                                    <td class="br_2" align="left">
+                                    	<input class="input3" name="accrual1" readonly="readonly" type="text">
+                                        སྒོར་
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td class="br_2" align="right" style=" font-size: 20px;width: 200px;">ཐོག་མའི་དངུལ་འཇལ་</td>
+                                    <td class="br_2" align="left">
+                                    	<input class="input3" name="money_first1" readonly="readonly" type="text">
+                                        སྒོར་
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td class="br_2" align="right" style=" font-size: 20px;width: 200px;">བུ་འཇལ་ཟླ་བ་</td>
+                                    <td class="br_2" align="left">
+                                    	<input class="input3" name="month1" readonly="readonly" type="text">
+                                        ཟླ་བ་
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td class="br_2" align="right" style=" font-size: 20px;width: 200px;">ཟླ་རེའི་བུ་འཇལ་</td>
+                                    <td class="br_2" align="left">
+                                    	<input class="input3" name="month_money1" readonly="readonly">
+                                        སྒོར་
+                                    </td>
+                                </tr>
+                            </tbody></table>
+                            <input name="fangkuan_total2" type="hidden">
+                            <input name="daikuan_total2" type="hidden">
+                            <input name="all_total2" type="hidden">
+                            <input name="accrual2" type="hidden">
+                            <input name="money_first2" type="hidden">
+                            <input name="month2" type="hidden">
+                            <input name="month_money2" type="hidden">
+                        </div>
+                    </form>
+                </div>
+                <div class="tablist2 hidden">
+                    <form name="calc2" method="post" action="">
+                        <div class="fl">
+                            <table style="" data-darkreader-inline-bgcolor="" width="274" height="321" cellspacing="1" cellpadding="3" border="0" >
+                                <tbody><tr>
+                                    <td style="font-size: 18px;background-color: black"  width="74" height="10px" align="right">བུ་གཡར་དབྱེ་བ་</td>
+                                    <td style="" data-darkreader-inline-bgcolor="" width="185" >
+                                        <label>
+                                            <select onchange="exc_zuhe(this.form,this.value);" name="type" id="debjloan">
+                                                <option value="1" selected="selected">ཚོང་གཉེར་བུ་གཡར་</option>
+                                                <option value="2">སྤྱི་གསོག་བུ་གཡར་</option>
+                                                <option value="3">སྡོན་ལུགས་</option>
+                                            </select>
+                                        </label>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td style="font-size: 20px;" data-darkreader-inline-bgcolor="" valign="top" height="10px"  align="right">རྩིས་ལུགས་</td>
+                                    <td style="" data-darkreader-inline-bgcolor="" valign="top"  align="center"><table width="93%" height="112" cellspacing="0" cellpadding="0" border="0">
+                                        <tbody><tr>
+                                            <td height="30" align="left">
+                                                <label for="calc2_radio1" style="
+                                                font-size: 20px">
+                                                    <input id="calc2_radio1" onclick="exc_js(this.form,1);" checked="checked" value="1" name="jisuan_radio" type="radio">
+                                                ས་ཆའི་རྒྱ་ཁྱོན་ གོང་ཚད་</label>
+
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td><div id="calc2_js_div1" style="display: block;">
+                                                <table width="100%" height="100%" cellspacing="0" cellpadding="0" border="0">
+                                                    <tbody><tr>
+                                                        <td height="25" align="left" style="font-size: 18px"><label>གོང་ཚད་：
+                                                            <input maxlength="8" name="price" class="input1">སྒོར་/m2</label></td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td height="22" align="left" style="font-size: 18px">རྒྱ་ཁྱོན་
+                                                            <input maxlength="7" name="sqm" class="input1">
+                                                             m^2 </td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td valign="middle" height="27" align="left">
+                                                            <label style="font-size: 18px">བུ་གཡར་བརྒྱ་ཆ་
+                                                                <select size="1" name="anjie" class="select2">
+                                                                    <option value="9">རྒྱ་ཆ་9</option>
+                                                                    <option value="8">རྒྱ་ཆ་8</option>
+                                                                    <option value="7" selected="selected">རྒྱ་ཆ་7</option>
+                                                                    <option value="6">རྒྱ་ཆ་6</option>
+                                                                    <option value="5">རྒྱ་ཆ་5</option>
+                                                                    <option value="4">རྒྱ་ཆ་4</option>
+                                                                    <option value="3">རྒྱ་ཆ་3</option>
+                                                                    <option value="2">རྒྱ་ཆ་2</option>
+                                                                </select>
+                                                            </label>
+                                                        </td>
+                                                    </tr>
+                                                </tbody></table>
+                                            </div></td>
+                                        </tr>
+                                        <tr>
+                                            <td align="left">
+                                            	<input id="calc2_radio2" onclick="exc_js(this.form,2);" value="2" name="jisuan_radio" type="radio">
+                                                <label for="calc2_radio2" style="font-size: 20px">བུ་གཡར་ཆ་ཚང་ཁྱོན་སྡོམ་</label>
+                                                <br>
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td><div id="calc2_js_div2" style="display: none;">
+                                                <table width="100%" height="100%" cellspacing="0" cellpadding="0" border="0">
+                                                    <tbody><tr>
+                                                        <td valign="middle" height="31" align="left"><label style=" font-size: 20px;width: 200px;background-color: black">བུ་གཡར་གྲངས་ཀ་
+                                                            <input maxlength="8"  name="daikuan_total000" class="input2">ཁྲི་</label>
+                                                        </td>
+                                                    </tr>
+                                                </tbody></table>
+                                            </div>
+                                                <div id="calc2_zuhe" style="display:none;">
+                                                    <table width="100%" height="100%" cellspacing="0" cellpadding="0" border="0">
+                                                        <tbody><tr>
+                                                            <td>组合比例：</td>
+                                                        </tr>
+                                                        <tr>
+                                                            <td>商业性：
+                                                                <input maxlength="8" size="8" name="total_sy" class="input1">
+                                                                སྒོར་
+                                                            </td>
+                                                        </tr>
+                                                        <tr>
+                                                            <td>སྤྱི་གསོག་བུ་གཡར་：
+                                                                <input maxlength="8" size="8" name="total_gjj" class="input1">
+                                                                སྒོར་
+                                                            </td>
+                                                        </tr>
+                                                    </tbody></table>
+                                                </div></td>
+                                        </tr>
+                                    </tbody></table></td>
+                                </tr>
+                                <tr>
+                                    <td style="" data-darkreader-inline-bgcolor="" valign="top" height="63"  align="right"><table width="100%" height="57" cellspacing="0" cellpadding="0" border="0">
+                                        <tbody><tr>
+                                            <td valign="middle" align="right" style="font-size: 18px">བུ་འཇལ་དུས་ཡུན་</td>
+                                        </tr>
+                                        <tr>
+                                            <td valign="middle" align="center" style="font-size: 18px;background-color: black">སྐྱེ་ཁའི་བརྒྱ་ཆ་</td>
+                                        </tr>
+                                    </tbody></table></td>
+                                    <td style="" data-darkreader-inline-bgcolor="" valign="top"  align="center"><table width="93%" height="56" cellspacing="0" cellpadding="0" border="0">
+                                        <tbody><tr>
+                                            <td valign="middle" height="30" align="left">
+                                                <select id="years" size="1" name="years">
+                                                    <option value="1">ལོ་1（12དུས་ཁག་）</option>
+                                                    <option value="2">ལོ་2（24དུས་ཁག་）</option>
+                                                    <option value="3">ལོ་3（36དུས་ཁག་）</option>
+                                                    <option value="4">ལོ་4（48དུས་ཁག་）</option>
+                                                    <option value="5">ལོ་5（60དུས་ཁག་）</option>
+                                                    <option value="6">6（72དུས་ཁག་）</option>
+                                                    <option value="7">ལོ་7（84དུས་ཁག་）</option>
+                                                    <option value="8">ལོ་8（96དུས་ཁག་）</option>
+                                                    <option value="9">ལོ་9（108དུས་ཁག་）</option>
+                                                    <option value="10">ལོ་10（120དུས་ཁག་）</option>
+                                                    <option value="11">ལོ་11（132དུས་ཁག་）</option>
+                                                    <option value="12">ལོ་12（144དུས་ཁག་）</option>
+                                                    <option value="13">ལོ་13（156དུས་ཁག་）</option>
+                                                    <option value="14">ལོ་14（168དུས་ཁག་）</option>
+                                                    <option value="15">ལོ་15（180དུས་ཁག་）</option>
+                                                    <option value="16">ལོ་16（192དུས་ཁག་）</option>
+                                                    <option value="17">ལོ་17（204དུས་ཁག་）</option>
+                                                    <option value="18">ལོ་18（216དུས་ཁག་）</option>
+                                                    <option value="19">ལོ་19（228དུས་ཁག་）</option>
+                                                    <option value="20" selected="selected">20（240དུས་ཁག་）</option>
+                                                    <option value="25">ལོ་25（300དུས་ཁག་）</option>
+                                                    <option value="30">ལོ་30（360དུས་ཁག་）</option>
+                                                </select>ལོ་
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td valign="middle" align="left">
+                                                <select id="lilv" name="lilv">
+
+                                                    <option value="71">211ཟླ་བ་20ཉིན་ཆ་སྙོན་སྐྱེ་ཁ་</option>  
+
+                                                	<option value="70">1107ཟླ་བ་01ཉིན་ཁང་པ་གཉིས་པ་(1.2)</option>
+                                                    <option value="67">1107ཟླ་བ་01ཉིན་ཁང་པ་གཉིས་པ་(1.1)</option>
+                                                	<option value="66" selected="selected">1107ཟླ་བ་01ཉིན་新ཆ་སྙོན་སྐྱེ་ཁ་</option>
+                                                    <option value="68">1107ཟླ་བ་01ཉིན་དམའ་(9)</option>
+                                                    <option value="69">1107ཟླ་བ་01ཉིན་དམའ་(85)</option>
+                                                	
+                                                    <option value="65">1104ཟླ་བ་06ཉིན་ཁང་པ་གཉིས་པ་(1.2)</option>
+                                                    <option value="62">1104ཟླ་བ་06ཉིན་ཁང་པ་གཉིས་པ་(1.1)</option>
+                                                    <option value="61">1104ཟླ་བ་06ཉིན་新ཆ་སྙོན་སྐྱེ་ཁ་</option>
+                                                    <option value="63">1104ཟླ་བ་06ཉིན་དམའ་(9)</option>
+                                                    <option value="64">1104ཟླ་བ་06ཉིན་དམའ་(85)</option>
+                                                
+                                                	<option value="58">1102ཟླ་བ་09ཉིན་ཁང་པ་གཉིས་པ་(1.1)</option>
+                                                    <option value="57">1102ཟླ་བ་09ཉིན་ཆ་སྙོན་སྐྱེ་ཁ་</option>
+                                                    <option value="59">1102ཟླ་བ་09ཉིན་དམའ་(9)</option>
+                                                    <option value="60">1102ཟླ་བ་09ཉིན་དམའ་(85)</option>
+                                                    
+                                                   
+                                                </select>
+                                            </td>
+                                        </tr>
+                                    </tbody></table></td>
+                                </tr>
+                                <tr>
+
+                                    <td style="" data-darkreader-inline-bgcolor="" > 
+
+                                         <input type="reset" class="again" style="cursor: pointer;font-size: 18px;background-color: black;color: #fff" value="སྐྱར་དུ་རྩིས་ལུགས་">
+                                    </td>
+                                    <td style="" data-darkreader-inline-bgcolor=""  align="right"><input value="རྩིས་མགོ་ཚུགས་&nbsp;" style="cursor: pointer;color:#fbfdfb;font-size: 18px;background-color: black" class="but1" onclick="ext_total(this.form);" type="button"></td>
+                                </tr>
+                            </tbody></table>
+                        </div>
+                        <div class="fr">
+                            <table class="br_1" width="410" height="252" cellspacing="0" cellpadding="3" border="0">
+                                <tbody><tr>
+                                    <td rowspan="4" style="font-size: 20px;width: 200px" class="fb f14" width="94" valign="bottom" align="right">མཐའ་མའི་ཐོབ་གྲངས་</td>
+                                    <td class="br_2" width="109" align="right" style=" font-size: 20px;width: 200px;">ཁང་རིན་ཁྱོན་སྡོམ་</td>
+                                    <td class="br_2" width="187" align="left">
+                                    	<input class="input3" name="fangkuan_total2" readonly="readonly" type="text">
+                                        སྒོར་
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td class="br_2" align="right" style="font-size: 20px">བུ་གཡར་གྲངས་ཀ་</td>
+                                    <td class="br_2" align="left">
+                                    	<input class="input3" name="daikuan_total2" readonly="readonly" type="text">
+                                        སྒོར་
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td class="br_2" align="right" style=" font-size: 20px;width: 200px;" >བུ་ལོན་ཐོབ་གྲངས་</td>
+                                    <td class="br_2" align="left">
+                                    	<input class="input3" name="all_total2" readonly="readonly" type="text">
+                                        སྒོར་
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td class="br_2" align="right" style=" font-size: 20px;width: 200px; background-color: black" >སྤྱི་གསོག་བུ་གཡར་</td>
+                                    <td class="br_2" align="left">
+                                    	<input name="gjjdkll" class="input3" readonly="readonly" type="text">
+                                        %
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td rowspan="5">&nbsp;</td>
+                                    <td class="br_2" align="right" style=" font-size: 20px;width: 200px; background-color: green" >ཚོང་གཉེར་བུ་གཡར་</td>
+                                    <td class="br_2" align="left">
+                                    	<input name="sydkll" class="input3" readonly="readonly" type="text">
+                                        %
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td class="br_2" align="right" style=" font-size: 20px;width: 200px;" >སྐྱེ་ཁ་ཐོབ་གྲངས་：</td>
+                                    <td class="br_2" align="left">
+                                    	<input class="input3" name="accrual2" readonly="readonly" type="text">
+                                        སྒོར་
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td class="br_2" align="right" style=" font-size: 20px;width: 200px;" >ཐོག་མའི་དངུལ་འཇལ་</td>
+                                    <td class="br_2" align="left">
+                                    	<input class="input3" name="money_first2" readonly="readonly" type="text">
+                                        སྒོར་
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td class="br_2" align="right" style=" font-size: 20px;width: 200px;" >བུ་འཇལ་ཟླ་བ་</td>
+                                    <td class="br_2" align="left">
+                                    	<input class="input3" name="month2" readonly="readonly" type="text">
+                                        ཟླ་བ་
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td class="br_2" align="right" style=" font-size: 20px;width: 200px;" >ཟླ་རེའི་བུ་འཇལ་</td>
+                                    <td class="br_2" align="left">
+                                    	<textarea class="input3" style="font-size: 12px;" name="month_money2" rows="5" readonly="readonly"></textarea>
+                                    </td>
+                                </tr>
+                            </tbody></table>
+                            <input name="fangkuan_total1" type="hidden">
+                            <input name="daikuan_total1" type="hidden">
+                            <input name="all_total1" type="hidden">
+                            <input name="accrual1" type="hidden">
+                            <input name="money_first1" type="hidden">
+                            <input name="month1" type="hidden">
+                            <input name="month_money1" type="hidden">
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+        <div style="display: none;" class="tablist1 hidden">
+        	<div id="tab3" >
+            	<ul>
+                    <li onclick="setTab(3,0)" class="now"><a href="javascript:;"  style="color: #ebfffa">ཁང་པ་ཉོ་བ་</a></li>
+                    <li onclick="setTab(3,1)"><a href="javascript:;" style="color: #ebfffa;width: 50px" >ཁང་གཙོང་བ་</a></li>
+                </ul>
+            </div>
+            <div id="tablist3">
+           	    <div class="tablist3">
+                    <div class="fl" style="position:relative;">
+                      <table style="" data-darkreader-inline-bgcolor="" width="264" cellspacing="1" cellpadding="3" border="0" >
+                          <tbody><tr>
+                            <td style="" data-darkreader-inline-bgcolor="" width="64" valign="top"  align="right"><table width="100%" height="83" cellspacing="0" cellpadding="0" border="0">
+                              <tbody><tr>
+                                <td valign="middle" align="right"><font class="fea5504">*</font> རྒྱ་ཁྱོན་</td>
+                              </tr>
+                              <tr>
+                                <td valign="middle" align="right">总价：</td>
+                              </tr>
+                              <tr>
+                                <td valign="middle" align="right">契税：</td>
+                              </tr>
+                            </tbody></table></td>
+                            <td style="" data-darkreader-inline-bgcolor="" width="185" valign="top"  align="center">
+                                <table width="93%" height="82" cellspacing="0" cellpadding="0" border="0">
+                                    <tbody><tr>
+                                        <td height="25" align="left">
+                                            <label>
+                                                <input name="qsspace" id="qsspace" class="input1" type="text"> m^2
+                                            </label>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td height="22" align="left">
+                                            <input name="qsprice" id="qsprice" class="input1" type="text"> 万སྒོར་
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td height="22" align="left">
+                                            <input name="qsdetail" id="qsdetail" class="input4" onclick="showdetail('qsdetaillist');" readonly="readonly" type="text">
+                                            <a href="javascript:;" class="fea5504" onclick="showdetail('qsdetaillist');">[明细]</a><br>
+                                        </td>
+                                    </tr>
+                                </tbody></table>
+                            </td>
+                          </tr>
+                          <tr>
+                            <td style="" data-darkreader-inline-bgcolor="" valign="top" height="38"  align="right">&nbsp;</td>
+                            <td style="" data-darkreader-inline-bgcolor="" valign="middle"  align="right"><input value="开始计算&nbsp;" class="but1" onclick="buy();" style="color:#fbfdfb;cursor: pointer;" type="button"></td>
+                          </tr>
+                          <tr>
+                            <td colspan="2" style="" data-darkreader-inline-bgcolor="" valign="top"  align="left"><span><b>说明：</b><br>
+                            普通住宅标准：单套建筑面积140㎡以下</span></td>
+                          </tr>
+                    </tbody></table>
+                    <div class="detail clear hidden" id="qsdetaillist">
+                        <table onclick="buyselectok('qsdetail')" style="" data-darkreader-inline-bgcolor="" width="100%" height="179" bgcolor="#1d1d1c" cellspacing="1" cellpadding="0" border="0" >
+                          <tbody><tr>
+                            <td colspan="4" style=";" data-darkreader-inline-bgcolor="black"  align="left"><span class="fl fb fea5504 f14">契税详细列表</span><span class="s1 fea5504"><a href="javascript:;" onclick="closedetail('qsdetaillist');">[关闭]</a></span></td>
+                          </tr>
+                          <tr>
+                            <th colspan="2" class="f14 f3" style=";" data-darkreader-inline-bgcolor="" valign="middle"  align="center">住宅类型</th>
+                            <th class="f14 f3" style=";" data-darkreader-inline-bgcolor="" width="28%" valign="middle"  align="center">唯一住房</th>
+                            <th class="f14 f3" style=";" data-darkreader-inline-bgcolor="" width="28%" valign="middle"  align="center">非唯一住房</th>
+                          </tr>
+                          <tr>
+                            <td rowspan="3" style=";" data-darkreader-inline-bgcolor="" width="22%" valign="middle"  align="center">住宅</td>
+                            <td style=";" data-darkreader-inline-bgcolor="" width="22%" valign="middle"  align="center">90㎡（含）以下</td>
+                            <td onmouseover="this.className='fbe5d9'" onmouseout="this.className='fff'" val="1" type="flat" num="first" space="small" style=";cursor: pointer;" data-darkreader-inline-bgcolor="" valign="middle"   align="center">总价1%</td>
+                            <td rowspan="3" onmouseover="this.className='fbe5d9'" onmouseout="this.className='fff'" val="3" type="flat" num="sec" space="small" style=";cursor: pointer;" data-darkreader-inline-bgcolor="" valign="middle"  align="center">总价3%</td>
+                          </tr>
+                          <tr>
+                            <td style=";" data-darkreader-inline-bgcolor="" valign="middle"  align="center">90-140㎡</td>
+                            <td onmouseover="this.className='fbe5d9'" onmouseout="this.className='fff'" val="1.5" type="flat" num="first" space="middle" style=";cursor: pointer;" data-darkreader-inline-bgcolor="" valign="middle"  align="center">总价1.5%</td>
+                            </tr>
+                          <tr>
+                            <td style=";" data-darkreader-inline-bgcolor="" valign="middle"  align="center">140㎡以上</td>
+                            <td onmouseover="this.className='fbe5d9'" onmouseout="this.className='fff'" val="3" type="flat" num="first" space="big" style=";cursor: pointer;" data-darkreader-inline-bgcolor="" valign="middle"  align="center">总价3%</td>
+                            </tr>
+                          <tr>
+                            <td colspan="2" style=";" data-darkreader-inline-bgcolor="" valign="middle"  align="center">非住宅</td>
+                            <td colspan="2" onmouseover="this.className='fbe5d9'" onmouseout="this.className='fff'" val="3" type="other" style=";" data-darkreader-inline-bgcolor="" valign="middle"  align="center">总价3%</td>
+                          </tr>
+                        </tbody></table>
+                    </div>
+                </div>
+                  
+                <div class="fr">
+                    <table  data-darkreader-inline-bgcolor=""  width="552" cellspacing="1" cellpadding="6" border="0" >
+                        <tbody><tr>
+                            <td rowspan="9" class="fb f14" style="font-size: 20px" data-darkreader-inline-bgcolor="" width="80" valign="top"  align="right">མཐའ་མའི་ཐོབ་གྲངས་</td>
+                            <td style=";" data-darkreader-inline-bgcolor="" width="124"  align="right">契税：</td>
+                            <td id="qs" style=";" data-darkreader-inline-bgcolor="" width="87"  align="left"></td>
+                            <td class="f9" style="color: #fbfdfb" width="208"  align="left">见契税<a href="javascript:;" class="fea5504" onclick="showdetail('qsdetaillist');">[明细]</a></td>
+                        </tr>
+                        <tr>
+                            <td style=";" data-darkreader-inline-bgcolor=""  align="right">印花税：</td>
+                            <td id="yhs" style=";" data-darkreader-inline-bgcolor=""  align="left"></td>
+                            <td class="f9" style="color: #fbfdfb" data-darkreader-inline-bgcolor=""  align="left">个人购买住宅免征；非住宅征收总价的0.05%</td>
+                        </tr>
+                        <tr>
+                            <td style=";" data-darkreader-inline-bgcolor=""  align="right">产权交易手续费：</td>
+                            <td id="cqjysxf" style=";" data-darkreader-inline-bgcolor=""  align="left"></td>
+                            <td class="f9" style="color: #fbfdfb" data-darkreader-inline-bgcolor=""  align="left">
+                                普通住宅暂免征；非普通住宅3སྒོར་ / m2；<br>
+                                非住宅6སྒོར་ / m2
+                            </td>
+                        </tr>
+                        <tr>
+                            <td style=";" data-darkreader-inline-bgcolor=""  align="right">产权注册登记工本费：</td>
+                            <td id="cqzcdjgbf" style=";" data-darkreader-inline-bgcolor=""  align="left"></td>
+                            <td class="f9" style="color: #fbfdfb" data-darkreader-inline-bgcolor=""  align="left"> 住宅5སྒོར་/本；非住宅555སྒོར་/本</td>
+                        </tr>
+                        <tr>
+                            <td style=";" data-darkreader-inline-bgcolor=""  align="right">共有权证：</td>
+                            <td id="gyqz" style=";" data-darkreader-inline-bgcolor=""  align="left"></td>
+                            <td class="f9" style="color: #fbfdfb" data-darkreader-inline-bgcolor=""  align="left"> 住宅5སྒོར་/本；非住宅555སྒོར་/本</td>
+                        </tr>
+                        <tr>
+                            <td style=";" data-darkreader-inline-bgcolor=""  align="right">他项权证：</td>
+                            <td id="txqz" style=";" data-darkreader-inline-bgcolor=""  align="left"></td>
+                            <td class="f9" style="color: #fbfdfb" data-darkreader-inline-bgcolor=""  align="left">住宅85སྒོར་/本；非住宅555སྒོར་/本</td>
+                        </tr>
+                        <tr>
+                            <td style=";" data-darkreader-inline-bgcolor=""  align="right">土地交易手续费：</td>
+                            <td id="tdjysxf" style=";" data-darkreader-inline-bgcolor=""  align="left"></td>
+                            <td class="f9" style="color: #fbfdfb" data-darkreader-inline-bgcolor=""  align="left"> 普通住宅暂免征；非普通住宅、非住宅50སྒོར་/本</td>
+                        </tr>
+                        <tr>
+                            <td style=";" data-darkreader-inline-bgcolor=""  align="right">土地证工本费：</td>
+                            <td id="tdzgbf" style=";" data-darkreader-inline-bgcolor=""  align="left"></td>
+                            <td class="f9" style="color: #fbfdfb" data-darkreader-inline-bgcolor=""  align="left"> 住宅5སྒོར་/本；非住宅18སྒོར་/本</td>
+                        </tr>
+                        <tr>
+                            <td style=";" data-darkreader-inline-bgcolor=""  align="right">总计：</td>
+                            <td style=";" data-darkreader-inline-bgcolor=""  align="left"><b class="fea5504" id="zj"></b>སྒོར་</td>
+                            <td class="f9" style="color: #fbfdfb" data-darkreader-inline-bgcolor=""  align="left"> 仅供参考</td>
+                        </tr>
+                    </tbody></table>
+                </div>
+           	  </div>
+              
+              
+                <div class="tablist3 hidden">
+                    <div class="fl" style="position:relative;">
+                        <table style="" data-darkreader-inline-bgcolor="" width="264" cellspacing="1" cellpadding="3" border="0" >
+                            <tbody><tr>
+                                <td style="" data-darkreader-inline-bgcolor="" width="64" valign="top" height="125"  align="right">
+                                    <table width="100%" height="126" cellspacing="0" cellpadding="0" border="0">
+                                          <tbody><tr>
+                                            <td valign="middle" align="right"><font class="fea5504">*</font> རྒྱ་ཁྱོན་</td>
+                                          </tr>
+                                          <tr>
+                                            <td valign="middle" align="right">买入总价：</td>
+                                          </tr>
+                                          <tr>
+                                            <td valign="middle" align="right">卖出总价：</td>
+                                          </tr>
+                                          <tr>
+                                            <td valign="middle" align="right">营业税：</td>
+                                          </tr>
+                                          <tr>
+                                            <td valign="middle" align="right">个税：</td>
+                                          </tr>
+                                    </tbody></table>
+                                </td>
+                                <td style="" data-darkreader-inline-bgcolor="" width="185" valign="top"  align="center">
+                                    <table width="93%" height="127" cellspacing="0" cellpadding="0" border="0">
+                                        <tbody><tr>
+                                            <td height="25" align="left"><label>
+                                                <input name="sellspace" id="sellspace" class="input1" type="text">
+                                                 m^2</label>
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td height="22" align="left">
+                                                <input name="buyprice" id="buyprice" class="input1" type="text">
+                                                 万སྒོར་
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td height="22" align="left">
+                                                <input name="sellprice" id="sellprice" class="input1" type="text">
+                                                万སྒོར་
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td height="22" align="left">
+                                                <input name="selltaxdetail" id="selltaxdetail" class="input4" readonly="readonly" onclick="showdetail('selltaxdetaillist');" type="text">
+                                                <a href="javascript:;" class="fea5504" onclick="showdetail('selltaxdetaillist');">[明细]</a>
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td height="22" align="left">
+                                                <input name="persontaxdetail" id="persontaxdetail" class="input4" readonly="readonly" onclick="showdetail('persontaxdetaillist');" type="text">
+                                                <a href="javascript:;" class="fea5504" onclick="showdetail('persontaxdetaillist');">[明细]</a><br>
+                                            </td>
+                                        </tr>
+                                    </tbody></table>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td style="" data-darkreader-inline-bgcolor="" valign="top" height="37"  align="right">&nbsp;</td>
+                                <td style="" data-darkreader-inline-bgcolor="" valign="middle"  align="right"><input value="开始计算&nbsp;" class="but1" style="color:#fbfdfb;cursor: pointer;" onclick="sell();" type="button"></td>
+                            </tr>
+                            <tr>
+                                <td colspan="2" style="" data-darkreader-inline-bgcolor="" valign="top"  align="left"><span><b>说明：</b><br>
+                                普通住宅标准：单套建筑面积140m^2以下</span></td>
+                            </tr>
+                        </tbody></table>
+                        
+                        <div class="detail clear hidden" id="selltaxdetaillist">
+                        <table onclick="sellselectok('selltaxdetail')" style="" data-darkreader-inline-bgcolor="" width="100%" height="164" cellspacing="1" cellpadding="0" border="0" >
+                          <tbody><tr>
+                            <td colspan="4" style=";" data-darkreader-inline-bgcolor=""  align="left"><span class="fl fb fea5504 f14">营业税详细列表</span><span class="s1 fea5504"><a href="javascript:;" onclick="closedetail('selltaxdetaillist');">[关闭]</a></span></td>
+                          </tr>
+                          <tr>
+                              <th colspan="2" class="f14 f3" style=";" data-darkreader-inline-bgcolor="" valign="middle"  align="center">住宅类型</th>
+                              <th class="f14 f3" style=";" data-darkreader-inline-bgcolor="" width="33%" valign="middle"  align="center">未满5</th>
+                              <th class="f14 f3" style=";" data-darkreader-inline-bgcolor="" width="32%" valign="middle"  align="center">已满5</th>
+                          </tr>
+                          <tr>
+                              <td rowspan="2" style=";" data-darkreader-inline-bgcolor="" width="16%" valign="middle"  align="center">住宅</td>
+                              <td style=";" data-darkreader-inline-bgcolor="" width="19%" valign="middle"  align="center">140㎡（含）以下</td>
+                              <td onmouseover="this.className='fbe5d9'" onmouseout="this.className='fff'" val="5.6" type="flat" space="normal" time="no" base="selltotal" style=";" data-darkreader-inline-bgcolor="" valign="middle"  align="center">全额5.6%</td>
+                              <td onmouseover="this.className='fbe5d9'" onmouseout="this.className='fff'" val="0" type="flat" space="normal" time="yes" base="selltotal" style=";" data-darkreader-inline-bgcolor="" valign="middle"  align="center">免征</td>
+                              </tr>
+                          <tr>
+                            <td style=";" data-darkreader-inline-bgcolor="" valign="middle"  align="center">140㎡（含）以上</td>
+                            <td onmouseover="this.className='fbe5d9'" onmouseout="this.className='fff'" val="5.6" type="flat" space="big" time="no" base="selltotal" style=";" data-darkreader-inline-bgcolor="" valign="middle"  align="center">全额5.6%</td>
+                            <td onmouseover="this.className='fbe5d9'" onmouseout="this.className='fff'" val="5.6" type="flat" space="big" time="yes" base="selldiff" style=";" data-darkreader-inline-bgcolor="" valign="middle"  align="center">差额5.6%</td>
+                            </tr>
+                          <tr>
+                            <td colspan="2" style=";" data-darkreader-inline-bgcolor="" valign="middle"  align="center">非住宅</td>
+                            <td colspan="2" onmouseover="this.className='fbe5d9'" onmouseout="this.className='fff'" val="5.6" type="other" base="diff" style=";" data-darkreader-inline-bgcolor="" valign="middle"  align="center">不计限差额5.6%</td>
+                          </tr>
+                        </tbody></table>
+                        </div>
+                        <div class="detail clear hidden" id="persontaxdetaillist">
+                            <table onclick="sellselectok('persontaxdetail')" style="" data-darkreader-inline-bgcolor="" width="100%" height="165" cellspacing="1" cellpadding="0" border="0" >
+                              <tbody><tr>
+                                <td colspan="6" style=";" data-darkreader-inline-bgcolor=""  align="left"><span class="fl fb fea5504 f14">个税详细列表</span><span class="s1 fea5504"><a href="javascript:;" onclick="closedetail('persontaxdetaillist');">[关闭]</a></span></td>
+                              </tr>
+                              <tr>
+                                <th rowspan="2" class="f14 f3" style=";" data-darkreader-inline-bgcolor="" valign="middle"  align="center">住宅类型</th>
+                                <th colspan="2" rowspan="2" class="f14 f3" style=";" data-darkreader-inline-bgcolor="" valign="middle"  align="center">不是唯一住宅</th>
+                                <th colspan="3" class="f14 f3" style=";" data-darkreader-inline-bgcolor="" valign="middle"  align="center">唯一住宅</th>
+                              </tr>
+                              <tr>
+                                  <th colspan="2" class="f14 f3" style=";" data-darkreader-inline-bgcolor="" valign="middle"  align="center">未满5</th>
+                                  <th class="f14 f3" style=";" data-darkreader-inline-bgcolor="" width="16%" valign="middle"  align="center">满5</th>
+                              </tr>
+                              <tr>
+                                <td style=";" data-darkreader-inline-bgcolor="" width="20%" valign="middle"  align="center">普通住宅</td>
+                                <td onmouseover="this.className='fbe5d9'" onmouseout="this.className='fff'" val="1" type="flat" space="normal" only="no" base="persontotal" style=";" data-darkreader-inline-bgcolor="" width="15%" valign="middle"  align="center">总价1%</td>
+                                <td onmouseover="this.className='fbe5d9'" onmouseout="this.className='fff'" val="20" type="flat" space="normal" only="no" base="persondiff" style=";" data-darkreader-inline-bgcolor="" width="18%" valign="middle"  align="center">差额20%</td>
+                                <td onmouseover="this.className='fbe5d9'" onmouseout="this.className='fff'" val="1" type="flat" space="normal" time="no" only="yes" base="persontotal" style=";" data-darkreader-inline-bgcolor="" width="16%" valign="middle"  align="center">总价1%</td>
+                                <td onmouseover="this.className='fbe5d9'" onmouseout="this.className='fff'" val="20" type="flat" space="normal" time="no" only="yes" base="persondiff" style=";" data-darkreader-inline-bgcolor="" width="15%" valign="middle"  align="center">差额20%</td>
+                                <td onmouseover="this.className='fbe5d9'" onmouseout="this.className='fff'" val="0" type="flat" space="normal" time="yes" only="yes" base="persontotal" style=";" data-darkreader-inline-bgcolor="" valign="middle"  align="center">免征</td>
+                              </tr>
+                              <tr>
+                                <td style=";" data-darkreader-inline-bgcolor="" width="20%" valign="middle"  align="center">非普通住宅</td>
+                                <td onmouseover="this.className='fbe5d9'" onmouseout="this.className='fff'" val="1" type="flat" space="big" only="no" base="persontotal" style=";" data-darkreader-inline-bgcolor="" valign="middle"  align="center">总价1%</td>
+                                <td onmouseover="this.className='fbe5d9'" onmouseout="this.className='fff'" val="20" type="flat" space="big" only="no" base="persondiff" style=";" data-darkreader-inline-bgcolor="" valign="middle"  align="center">差额20%</td>
+                                <td onmouseover="this.className='fbe5d9'" onmouseout="this.className='fff'" val="1" type="flat" space="big" time="no" only="yes" base="persontotal" style=";" data-darkreader-inline-bgcolor="" valign="middle"  align="center">总价1%</td>
+                                <td onmouseover="this.className='fbe5d9'" onmouseout="this.className='fff'" val="20" type="flat" space="big" time="no" only="yes" base="persondiff" style=";" data-darkreader-inline-bgcolor="" valign="middle"  align="center">差额20%</td>
+                                <td onmouseover="this.className='fbe5d9'" onmouseout="this.className='fff'" val="0" type="flat" space="big" time="yes" only="yes" base="persontotal" style=";" data-darkreader-inline-bgcolor="" valign="middle"  align="center">免征</td>
+                              </tr>
+                              <tr>
+                                <td style=";" data-darkreader-inline-bgcolor="" width="20%" valign="middle"  align="center">非住宅</td>
+                                <td colspan="5" onmouseover="this.className='fbe5d9'" onmouseout="this.className='fff'" val="0.05" type="other" style=";" data-darkreader-inline-bgcolor="" valign="middle"  align="center">总价0.05%</td>
+                              </tr>
+                            </tbody></table>
+                        </div>
+                    </div>
+                    
+                    
+                    
+                    <div class="fr">
+                        <table style=";" data-darkreader-inline-bgcolor="" width="552" cellspacing="1" cellpadding="6" border="0" >
+                            <tbody><tr>
+                                <td rowspan="8" class="fb f14" style="font-size: 20px" data-darkreader-inline-bgcolor="" width="80" valign="top"  align="right">མཐའ་མའི་ཐོབ་གྲངས་</td>
+                                <td style=";" data-darkreader-inline-bgcolor="" width="124"  align="right">营业税及附加：</td>
+                                <td id="selltax" style=";" data-darkreader-inline-bgcolor="" width="87"  align="left"></td>
+                                <td class="f9" style=";" data-darkreader-inline-bgcolor="" width="208"  align="left">见营业税<a href="javascript:;" class="fea5504" onclick="showdetail('selltaxdetaillist');">[明细]</a></td>
+                            </tr>
+                            <tr>
+                                <td style=";" data-darkreader-inline-bgcolor=""  align="right">个税：</td>
+                                <td id="persontax" style=";" data-darkreader-inline-bgcolor=""  align="left"></td>
+                                <td class="f9" style=";" data-darkreader-inline-bgcolor=""  align="left">见个税<a href="javascript:;" class="fea5504" onclick="showdetail('persontaxdetaillist');">[明细]</a></td>
+                            </tr>
+                            <tr>
+                                <td style=";" data-darkreader-inline-bgcolor=""  align="right">印花税：</td>
+                                <td id="sellyhs" style=";" data-darkreader-inline-bgcolor=""  align="left"></td>
+                                <td class="f9" style=";" data-darkreader-inline-bgcolor=""  align="left">
+                                	住宅暂免征；非住宅征收总价的0.05%<br>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td style=";" data-darkreader-inline-bgcolor=""  align="right">土地增值税：</td>
+                                <td id="selltdzzs" style=";" data-darkreader-inline-bgcolor=""  align="left"></td>
+                                <td class="f9" style=";" data-darkreader-inline-bgcolor=""  align="left"> 住宅暂免征；非住宅征收总价的0.5%</td>
+                            </tr>
+                            <tr>
+                                <td style=";" data-darkreader-inline-bgcolor=""  align="right">产权交易手续费：</td>
+                                <td id="sellcqjysxf" style=";" data-darkreader-inline-bgcolor=""  align="left"></td>
+                                <td class="f9" style=";" data-darkreader-inline-bgcolor=""  align="left"> 普通住宅暂免征；非普通住宅按3སྒོར་ / m2征收；非住宅按6སྒོར་ / m2征收</td>
+                            </tr>
+                            <tr>
+                                <td style=";" data-darkreader-inline-bgcolor=""  align="right">土地交易手续费：</td>
+                                <td id="selltdjysxf" style=";" data-darkreader-inline-bgcolor=""  align="left"></td>
+                                <td class="f9" style=";" data-darkreader-inline-bgcolor=""  align="left">普通住宅暂免征；非普通住50སྒོར་/本；非住宅按基准地价计算</td>
+                            </tr>
+                            <tr>
+                                <td style=";" data-darkreader-inline-bgcolor=""  align="right">总计：</td>
+                                <td style=";" data-darkreader-inline-bgcolor=""  align="left"><b class="fea5504" id="sellzj"></b>སྒོར་</td>
+                                <td class="f9" style=";" data-darkreader-inline-bgcolor=""  align="left"> 仅供参考</td>
+                            </tr>
+                        </tbody></table>
+                    </div>
+                </div>
+            </div>
+        </div>   
+
+        <div style="display: none;" class="tablist1 hidden">
+        	<div id="tab4">
+            	<ul>
+                    <li onclick="setTab(4,0)" class="now"><a href="javascript:;" style="color:#e5ff0d">评估费</a></li>
+                    <li onclick="setTab(4,1)"><a href="javascript:;"style="color:#e5ff0d">中介费收费标准</a></li>
+                </ul>
+            </div>
+            <div id="tablist4">
+            	<div class="tablist4">
+                	<form name="calc2" action="" method="post">
+                        <div class="fl">
+                            <table style="" data-darkreader-inline-bgcolor="" width="264" cellspacing="1" cellpadding="6" border="0" >
+                                <tbody><tr>
+                                    <td style="" data-darkreader-inline-bgcolor="" width="65"  align="right">贷款金额：</td>
+                                    <td style="" data-darkreader-inline-bgcolor="" width="172" ><label>
+                                      <input class="input2" name="total" id="total" type="text">
+                                     万སྒོར་</label></td>
+                                    </tr>
+                                    <tr>
+                                    <td  data-darkreader-inline-bgcolor="" >&nbsp;</td>
+                                    <td style="" data-darkreader-inline-bgcolor=""  align="right">
+                                        <input class="but1" style="color: #e5ff0d;cursor: pointer;" onclick="ext_total2(this.form);" value="开始计算&nbsp;" type="button">
+                                    </td>
+                                </tr>
+                            </tbody></table>
+                        </div>
+                        <div class="fr">
+                            <table class="br_1" width="418" cellspacing="0" cellpadding="6" border="0">
+                                <tbody><tr>
+                                    <td class="fb f14" width="91" valign="middle" height="34" align="right">མཐའ་མའི་ཐོབ་གྲངས་</td>
+                                    <td class="br_2" width="113" align="right">评估费：</td>
+                                    <td class="br_2" width="191" align="left">
+                                        <input id="result" name="result" class="input3" readonly="readonly" type="text">
+                                     སྒོར་</td>
+                                </tr>
+                            </tbody></table>
+                        </div>
+                    </form>
+                    <div class="clear">
+                        <table width="100%" cellspacing="0" cellpadding="0" border="0">
+                            <tbody><tr>
+                                <th width="22%" valign="middle" height="35" align="left">房屋总价</th>
+                                <th width="78%" valign="middle" align="left">收费标准（总价×比例）</th>
+                            </tr>
+                            <tr>
+                                <td valign="middle" align="left">&nbsp;</td>
+                                <td valign="middle" align="left">&nbsp;</td>
+                            </tr>
+                            <tr>
+                                <td valign="middle" align="left">&nbsp;</td>
+                                <td valign="middle" align="left">&nbsp;</td>
+                            </tr>
+                            <tr>
+                                <td valign="middle" align="left">&nbsp;</td>
+                                <td valign="middle" align="left">&nbsp;</td>
+                            </tr>
+                            <tr>
+                                <td valign="middle" align="left">&nbsp;</td>
+                                <td valign="middle" align="left">&nbsp;</td>
+                            </tr>
+                            <tr>
+                            	<td colspan="2" class="fea5504" valign="middle" align="left">备注：评估收费采取分段累进制</td>
+                            </tr>
+                        </tbody></table>
+                    </div>
+                </div>
+                
+                
+                <div class="tablist4">
+                	<form name="calc2" action="" method="post">
+                        <div class="fl">
+                            <table style="" data-darkreader-inline-bgcolor="" width="264" cellspacing="1" cellpadding="6" border="0" >
+                              <tbody><tr>
+                                <td style="" data-darkreader-inline-bgcolor="" width="65"  align="right">房价总额：</td>
+                                <td style="" data-darkreader-inline-bgcolor="" width="172" ><label>
+                                  <input class="input2" name="total2" id="total2" type="text">
+                                 万སྒོར་</label></td>
+                              </tr>
+                              <tr>
+                                <td style="" data-darkreader-inline-bgcolor="" >&nbsp;</td>
+                                <td style="" data-darkreader-inline-bgcolor=""  align="right">
+                                    <input class="but1"  style="color: #e5ff0d;cursor: pointer;" onclick="ext_total3(this.form);" value="开始计算&nbsp;" type="button">
+                                </td>
+                              </tr>
+                            </tbody></table>
+                        </div>
+                        <div class="fr">
+                           <table class="br_1" width="418" cellspacing="0" cellpadding="6" border="0">
+                            <tbody><tr>
+                              <td class="fb f14" width="91" valign="middle" height="34" align="right">མཐའ་མའི་ཐོབ་གྲངས་</td>
+                              <td class="br_2" width="113" align="right">单边中介费：</td>
+                              <td class="br_2" width="191" align="left">
+                              <input id="result2" name="result2" class="input3" readonly="readonly" type="text">
+                               སྒོར་</td>
+                            </tr>
+                          </tbody></table>
+                      </div>
+                  </form>
+                  <div class="clear">
+                	<table width="100%" height="32" cellspacing="0" cellpadding="0" border="0">
+                      <tbody><tr>
+                        <td colspan="2" class="fea5504" valign="middle" align="left">备注：评估收费采取分段累进制</td>
+                      </tr>
+                    </tbody></table>
+                  </div>
+                </div>
+            </div>
+
+        </div>
+         <div class="music" style="align-content: center; height: 100px">        
+      </div> 
+    </div>
+
+      <marquee behavior="behavior" width="100%" height="60px" loop="10" scrollamount="10">
+         <font  color="#F37327" size="6">
+            <a href="#" style="color:#f3e327;text-decoration: none">
+                རྣམ་ཀུན་འཚོ་བའི་ཁྲོད་ ཁང་པ་ཉོ་བ་ནི་མི་ཚེའི་དོན་ཆེན་གཙོ་གྲས་གཅིག་ཡིན་པ་ཐེ་ཚོམ་མེད་ 
+                དེ་རྟེན་སྐྱེས་བོ་སུ་ཡིན་རུང་ རང་ཉིད་ཁང་པ་ཉོ་བ་གྲ་སྒྲིག་སྔ་ཙམ་དགོས་པ་རྒྱ་ཆ་བརྒྱ་
+               གང་ཡིན་བརྫོད་ན་ དཔེ་ན་ཁང་པ་ཉོ་བར་དཔལ་འབྱོར་རིག་པའི་ཤེས་བྱ་མེད་ཚེ་ 
+               དངུལ་ཁང་དང་ཡང་ན་བུ་གཡར་སྒྲིག་ཚུགས་ཀྱི་ཞིང་ལ་ས་བོན་གཏབ་པ་ནང་བཞིན་ཁྱེད་ལ་མགོ་སྐོར་གཏོང་ངེས་ཡིན་
+           བྱས་ཙང་ཆུ་མ་ཤོར་གོང་རགས་རྒྱོབ་ཟེར་བ་ལྟར་ རྩིས་རིག་ལག་ཆ་ལྷན་རྒྱས་ལ་ཕུལ་ལོ་།</a>
+        </font>
+    </marquee>
+
+
+</div>
+
+
+
+<!-- <marquee behavior="behavior" width="100%" height="90px" loop="10" direction="up" scrollamount="1">
+     <font  color="#F37327" size="6">
+            <a href="#" style="color:#f3e327;text-decoration: none">རྣམ་ཀུན་འཚོ་བའི་ཁྲོད་ མགྱོགས་མྱུར་གློག་པར་ནི་ཆེད་དགོས་མཁོ་ཆེ་བའི་ཅ་དངོས་ཤིག་ཡིན་
+    གང་ཡིན་བརྫོད་ན་ དཔེ་རང་ཉིད་ལས་ཀ་འཚོལ་སྐབས་ ཡིག་ཚད་གཏོང་དུས་ ལས་ཁུངས་ལ་དོན་དག་སྒྲུབ་སྐབས་
+    བཅས་ཀྱི་གནས་འབབ་ལ་བེད་སྤྱོད་རྒྱུན་དུ་གཏང་དགོས་པ་ དེ་བས་དམིགས་གསལ་ཛ་དྲག་གནས་ཚུལ་ལ་ཡང་དགོས་པ་ཤིན་དུ་ཆེ་།</a>
+        </font>
+    
+</marquee> -->
+
+
+</body></html>
